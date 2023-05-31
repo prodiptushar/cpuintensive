@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>category1 on Prodip Kumar</title>
+    <link>/categories/category1/</link>
+    <description>Recent content in category1 on Prodip Kumar</description>
+    <image>
+      <title>Prodip Kumar</title>
+      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/categories/category1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Start blogging with hugo and org.</title>
+      <link>/posts/ox-hugo-quick-start/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/ox-hugo-quick-start/</guid>
+      <description>Create Hugo Site. Hugo is a great tool to create static websites, and now with the power of emacs and org mode this can be as easy as Chatting online. So lets get started.
+Dreaming of Theming There are many ways to add a hugo theme . Today we are gonna use the go submodule to install theme.
+ First start a new hugo site with  hugo new site &amp;lt;site name&amp;gt; cd &amp;lt;site name&amp;gt;  There would be a config.</description>
+    </item>
+    
+  </channel>
+</rss>

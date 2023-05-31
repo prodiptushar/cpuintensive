@@ -1,8 +1,8 @@
 +++
 title = "Start blogging with hugo and org."
 author = ["Prodip Kumar"]
-tags = ["tag1"]
-categories = ["category1"]
+tags = ["org", "hugo", "emacs"]
+categories = ["tech"]
 draft = false
 [cover]
   image = "one.png"
@@ -28,7 +28,7 @@ cd <site name>
 ```
 
 1.  There would be a config.toml in that directory. Remove that and create a config.yml file.
-    There is an example for config.yml in **papermod** theme [[][example]], use that for yous sites config.yml.
+    There is an example for config.yml in **papermod** theme [example](https://github.com/adityatelange/hugo-PaperMod/wiki/Installation#sample-configyml), use that for yous sites config.yml.
     Change the example config.yml to your liking. Dont forget to change the base url to the domain name .Add the following lines in the yml file.
 
 <!--listend-->
@@ -55,10 +55,14 @@ This should install hugo papermod theme as a go module . Make sure you have go l
     ```bash
        hugo new posts/<postname>.md
     ```
-    Than cd into content/posts directory and edit that &lt;postname&gt;.md file.
-    write something under the \\++++++++++\\+ .
+    Than cd into content/posts directory and edit that &lt;postname&gt;.md file. Run 'hugo server' command in the root of the project and open browser localhos:1313 to view your first post.
 
 
-### Ox-hugo setup . {#ox-hugo-setup-dot}
+## Ox-hugo setup . {#ox-hugo-setup-dot}
 
-Now that you have a working hugo
+Now that you have a working hugo site lets get into the emacs part of this game. If you are doom emacs user "like me"  you can simpley
+edit your init.el file in your $DOOM_DIR with following .
+
+```elisp
+(org +pandoc +hugo)
+```
